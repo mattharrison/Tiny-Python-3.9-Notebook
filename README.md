@@ -15,6 +15,12 @@ to the Python syntax.
 Reviews
 ---------
 
+> I love these little books, and have several versions across multiple languages. This is the latest in a series of succinct and up-to-date summaries of the syntax and idioms of Python, and have enough whitespace and notes pages to add useful additional information of snippets of code, lists of tricks etc that you pick up along the way.
+>
+> I also use these books as a neat little tool to wean me off looking at my phone in idle moments. This book is eminently pocketable and if it's like its siblings it takes a battering as well (witness my ES6 book after nearly three years of riding around in my pocket).
+>
+> I tend to view it as a pre-populated personal notebook, with enough room for embellishment. The quality of the content and the book itself are excellent. I can't wait to start annotating this one, too! - Amazon 3.8 review
+
 These are for the 3.6 version of this book
 
 > This is an awesome python3 resource I share all the time. 🐍🎉 - @nnja (MS Developer Advocate)
