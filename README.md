@@ -1,14 +1,14 @@
 
-Tiny Python 3.8 Notebook
+Tiny Python 3.9 Notebook
 ========================
 
-This repository contains the text for the *Tiny Python 3.8 Notebook*.
+This repository contains the text for the *Tiny Python 3.9 Notebook*.
 
-<img src="img/tinypy38-iso.png" width="30%">
+<img src="img/tinypy39-iso.png" width="30%">
 
 Warning, this is not an introduction to Python. Rather it is a notebook
 containing curated examples for Python 3 as well as the new features
-found in Python 3.8. It is designed to accompany technical corporate
+found in Python 3.9. It is designed to accompany technical corporate
 training offered by the author or aid those who want a quick refresher
 to the Python syntax.
 
