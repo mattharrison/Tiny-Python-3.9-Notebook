@@ -68,11 +68,6 @@ and it may be resolved in a future version of the book. I love feedback
 and would love to hear your ideas on what is missing or could be
 improved.
 
-Contents
---------
-
-This book covers the syntax in Python up to version 3.8.
-
 License
 -------
 
