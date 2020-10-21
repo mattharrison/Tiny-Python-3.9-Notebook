@@ -56,12 +56,10 @@ with Matt (matt at metasnake dot com).
 Thanks
 ------
 
-If you enjoy this content, consider *purchasing the physical version (LINK COMING SOON)*
+If you enjoy this content, consider *purchasing the physical version [on Amazon](https://www.amazon.com/Tiny-Python-3-9-Notebook-Examples/dp/B08L4QWL9H/ref=sr_1_2?crid=QYNIFZ7C3EQE&dchild=1&keywords=tiny+python+notebook&qid=1603324510&sprefix=tiny+python+note%2Caps%2C226&sr=8-2*)
 It is a hand laid out version that fits in the pocket and has blank
-pages in the back for note taking. It is available at (COMING SOON)
-I'mindebted to those who support my work and write reviews. Thanks!
+pages in the back for note taking. Thanks!
 
-<img src="img/book.jpg" width="30%">
 
 
 Feel free to share this repository on social media.
