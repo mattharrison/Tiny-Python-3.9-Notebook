@@ -1,19 +1,25 @@
 
-Tiny Python 3.8 Notebook
+Tiny Python 3.9 Notebook
 ========================
 
-This repository contains the text for the *Tiny Python 3.8 Notebook*.
+This repository contains the text for the *Tiny Python 3.9 Notebook*.
 
-<img src="img/tinypy38-iso.png" width="30%">
+<img src="img/tinypy39-iso.png" width="30%">
 
 Warning, this is not an introduction to Python. Rather it is a notebook
 containing curated examples for Python 3 as well as the new features
-found in Python 3.8. It is designed to accompany technical corporate
+found in Python 3.9. It is designed to accompany technical corporate
 training offered by the author or aid those who want a quick refresher
 to the Python syntax.
 
 Reviews
 ---------
+
+> I love these little books, and have several versions across multiple languages. This is the latest in a series of succinct and up-to-date summaries of the syntax and idioms of Python, and have enough whitespace and notes pages to add useful additional information of snippets of code, lists of tricks etc that you pick up along the way.
+>
+> I also use these books as a neat little tool to wean me off looking at my phone in idle moments. This book is eminently pocketable and if it's like its siblings it takes a battering as well (witness my ES6 book after nearly three years of riding around in my pocket).
+>
+> I tend to view it as a pre-populated personal notebook, with enough room for embellishment. The quality of the content and the book itself are excellent. I can't wait to start annotating this one, too! - Amazon 3.8 review
 
 These are for the 3.6 version of this book
 
@@ -50,12 +56,10 @@ with Matt (matt at metasnake dot com).
 Thanks
 ------
 
-If you enjoy this content, consider *purchasing the physical version (LINK COMING SOON)*
+If you enjoy this content, consider *purchasing the physical version [on Amazon](https://www.amazon.com/Tiny-Python-3-9-Notebook-Examples/dp/B08L4QWL9H/ref=sr_1_2?crid=QYNIFZ7C3EQE&dchild=1&keywords=tiny+python+notebook&qid=1603324510&sprefix=tiny+python+note%2Caps%2C226&sr=8-2*)
 It is a hand laid out version that fits in the pocket and has blank
-pages in the back for note taking. It is available at (COMING SOON)
-I'mindebted to those who support my work and write reviews. Thanks!
+pages in the back for note taking. Thanks!
 
-<img src="img/book.jpg" width="30%">
 
 
 Feel free to share this repository on social media.
@@ -67,11 +71,6 @@ The author is human and will certainly make errors. You may file a bug
 and it may be resolved in a future version of the book. I love feedback
 and would love to hear your ideas on what is missing or could be
 improved.
-
-Contents
---------
-
-This book covers the syntax in Python up to version 3.8.
 
 License
 -------
