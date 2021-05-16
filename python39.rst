@@ -935,7 +935,7 @@ In the default namespace you have access to various callables:
   ``type(name, bases, dict)``                                       Create a new type of ``name``, with base classes ``bases``, and attributes ``dict``
   ``type(obj)``                                                     Return type of ``obj``
   ``vars([obj])``                                                   Return ``obj.__dict__`` or ``locals()`` if missing
-  ``zip(seq1, [seq2, ...])``                                        Return iterable of tuples of ``(seq1[0], seq2[0])``, ``(seq1[1], seq2[1])``, ... until shortest sequence
+  ``zip(seq1, [seq2, ...], [strict=False])``                        Return iterable of tuples of ``(seq1[0], seq2[0])``, ``(seq1[1], seq2[1])``, ... until shortest sequence (set ``strict=True`` to require all sequences have an equal length)
   ================================================================= ============================================================
 
 Unicode
