@@ -2455,6 +2455,13 @@ As of PEP 585 (Python 3.9) you type hint on built in container without using the
   >>> from __future__ import annotations
   >>> ages: dict[str, int] = {}
 
+As of PEP 613 (Python 3.10) the ``typing`` module has a special value ``TypeAlias`` which allows the type alias declaration to be explicit:
+  >>> x = 1  # untyped global expression
+  >>> x: int = 1  # typed global expression
+
+  >>> x: TypeAlias = int  # type alias
+  >>> x: TypeAlias = “MyClass”  # type alias
+
 The ``typing`` Module
 ---------------------
 
