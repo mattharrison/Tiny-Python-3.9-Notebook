@@ -2399,17 +2399,6 @@ The code looks the same as using the function based context manager::
   >>> out  # may_error had an issue
   ['\\begin{center}', '\\end{center}']
 
-Parenthesized context managers
----------------
-Using enclosing parentheses for continuation across multiple lines in context managers is supported since Python 3.10 (PEP 617)
-Now it is possible to format long collections of context managers, in multiple lines, in a similar way as it was already possible with import statements.
-
-Examples of which is now valid:
->>> with (
-...    CtxManager1() as example1,
-...    CtxManager2() as example2,
-...    CtxManager3() as example3,
-...):
 
 Context objects
 ---------------
