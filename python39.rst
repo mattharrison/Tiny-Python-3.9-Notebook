@@ -2492,6 +2492,13 @@ As of PEP 604 (Python 3.10) you can use the new union operator ``|`` to define a
   >>> typing.List[str | int]
   >>> typing.Dict[str, int | float]
 
+As of PEP 613 (Python 3.10) the ``typing`` module has a special value ``TypeAlias`` which allows the type alias declaration to be explicit:
+  >>> x = 1  # untyped global expression
+  >>> x: int = 1  # typed global expression
+
+  >>> x: TypeAlias = int  # type alias
+  >>> x: TypeAlias = “MyClass”  # type alias
+
 The ``typing`` Module
 ---------------------
 
