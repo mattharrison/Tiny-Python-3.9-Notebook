@@ -512,7 +512,7 @@ We can also do *slicing* operations on most sequences::
   ``l.copy()``                                                 Shallow copy
   ``l.count(thing)``                                           Number of occurrences of ``thing``
   ``l.extend(l2)``                                             List concatenation (mutates ``l``)
-  ``l.index(thing)``                                           Index of ``thing`` else ``ValueError``
+  ``l.index(thing[, start[, stop]])``                          Index of ``thing`` else ``ValueError``. Python 3.10 has added optional arguments start and stop to search for ``thing`` within a subsection of the array
   ``l.insert(idx, bar)``                                       Insert ``bar`` at index ``idx``
   ``l.pop([idx])``                                             Remove last item or item at ``idx``
   ``l.remove(bar)``                                            Remove first instance of ``bar`` else ``ValueError``
@@ -898,8 +898,8 @@ In the default namespace you have access to various callables:
   ``id(x)``                                                         Identity of ``x``
   ``input([prompt])``                                               Read string from standard input
   ``int(x, [base=10])``                                             Create integer from number or string
-  ``isinstance(obj, class_or_tuple)``                               Boolean check if ``obj`` is an instance or subclass of ``class_or_tuple``
-  ``issubclass(cls, class_or_tuple)``                               Boolean check if ``cls`` is the class or derived from ``class_or_tuple``
+  ``isinstance(obj, class_or_tuple)``                               Boolean check if ``obj`` is an instance or subclass of ``class_or_tuple``. As of PEP 604 (Python 3.10), calls to this method is also supported with a type union object.   
+  ``issubclass(cls, class_or_tuple)``                               Boolean check if ``cls`` is the class or derived from ``class_or_tuple``. As of PEP 604 (Python 3.10), calls to this method is also supported with a type union object.
   ``iter(seq)``                                                     Iteration protocol (call ``seq.__iter__()``)
   ``len(seq)``                                                      Number of items in sequence
   ``license()``                                                     Display Python licenses
@@ -2423,6 +2423,27 @@ The ``open`` context manager returns a file object::
 To create an object in a function based context manager, simply ``yield`` the object.
 In a class based context manager, return the object in the ``__enter__`` method.
 
+Type Union Operator
+===================
+Python 3.10 (PEP 605) has introduced a new type union operator overloading the ``|`` operator on types which enables the syntax ``X | Y``.
+This operator lets us write "either type X or type Y" in cleaner format.
+
+A basic example::
+
+  >>> (int | str) | float == int | str | float
+  True
+
+It can also be used to apply type hints to methods accepting arguments of multiple types::
+
+  >>> def square(number: int | float) -> int | float:
+  ...     return number ** 2
+
+The union type operator can also be passed as second argument to ``isinstance()`` and ``issubclass()`` method::
+
+  >>> x = 10
+  >>> isinstance(x, int | str)
+  True
+
 Type Annotations
 ===================
 
@@ -2465,6 +2486,11 @@ As of PEP 585 (Python 3.9) you type hint on built in container without using the
 
   >>> from __future__ import annotations
   >>> ages: dict[str, int] = {}
+  
+As of PEP 604 (Python 3.10) you can use the new union operator ``|`` to define a union instead of ``typing.Union``::
+
+  >>> typing.List[str | int]
+  >>> typing.Dict[str, int | float]
 
 The ``typing`` Module
 ---------------------
