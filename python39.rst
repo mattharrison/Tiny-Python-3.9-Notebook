@@ -143,7 +143,6 @@ In Python 3.8 the *walrus operator* was introduced, ``:=``. The following code::
     rows = connection.fetch(200)
     while rows:
         process(rows)
-        rows = connection.fetch(200)
 
 Can be rewritten as::
 
